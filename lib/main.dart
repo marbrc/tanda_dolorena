@@ -1,16 +1,18 @@
 import 'package:flutter/material.dart';
+import 'presentation/tanda_screen.dart';
 
-void main() {
-  runApp(const MainApp());
-}
+// Aquí arranca la app y abre la pantalla de la tanda
+void main() => runApp(const TandaApp());
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+class TandaApp extends StatelessWidget {
+  const TandaApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(body: Center(child: Text('Hello World!'))),
+    return MaterialApp(
+      title: 'Tanda Dolorena',
+      theme: ThemeData(primarySwatch: Colors.indigo, useMaterial3: true),
+      home: const TandaScreen(),
     );
   }
 }
