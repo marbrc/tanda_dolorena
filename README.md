@@ -382,7 +382,20 @@ Con las rondas anteriores en verde, le pongo nombre a las condiciones para que e
   });
 ```
 
-## Interfaz gráfica
+## CAPTURAS
+
+<img width="370" height="834" alt="image" src="https://github.com/user-attachments/assets/10829d50-3eaa-45c6-a425-e411282807d2" />
+
+<img width="372" height="830" alt="image" src="https://github.com/user-attachments/assets/45364564-4e44-43ca-81a0-a04955c4c1b2" />
+
+<img width="374" height="829" alt="image" src="https://github.com/user-attachments/assets/2feb2a28-f19b-4745-8f91-4774a3bc2d22" />
+
+<img width="370" height="833" alt="image" src="https://github.com/user-attachments/assets/3dd07231-dff5-4ca5-9263-ce1a055d57ea" />
+
+<img width="369" height="833" alt="image" src="https://github.com/user-attachments/assets/3a90faf6-bafa-4780-a08b-601fe9a9b966" />
+
+<img width="366" height="832" alt="image" src="https://github.com/user-attachments/assets/b56cd495-7237-4e98-a053-8d3e2c2ad5a1" />
+
 
 La pantalla (`lib/presentation/tanda_screen.dart`) muestra el orden de turnos, resalta con animación a quien le toca, tiene una barra animada de cuántos ya aportaron y una animación al entregar el turno. La pantalla no decide quién cobra, solo se lo pregunta a `ServicioTanda`.
 
